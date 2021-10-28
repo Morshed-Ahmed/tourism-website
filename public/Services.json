@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "1",
+        "name": "Heart Sergery",
+        "description": "Heart surgery can correct problems with the heart if other treatments haven't worked or can't be used.",
+        "imageURL": "https://i.ibb.co/zZwqp57/p-1-43d43fdd.png"
+    },
+    {
+        "_id": "2",
+        "name": "Nephrologist Care",
+        "description": "Nephrologists are medical professionals who diagnose, treat, and manage acute and chronic kidney problems and diseases.",
+        "imageURL": "https://i.ibb.co/b5ygBFj/p-2-02c7fd31.png"
+    },
+    {
+        "_id": "3",
+        "name": "Neurology Surgery",
+        "description": "Neurosurgery is a surgical specialty that involves the conservative and surgical management of a wide variety of disorders.",
+        "imageURL": "https://i.ibb.co/chvRBwJ/p-3-460015b6.png"
+    },
+    {
+        "_id": "4",
+        "name": "Anesthesiology",
+        "description": "Anesthesiology is the medical specialty concerned with the total perioperative care of patients before, during and after surgery",
+        "imageURL": "https://i.ibb.co/chvRBwJ/p-3-460015b6.png"
+    },
+    {
+        "_id": "5",
+        "name": "Dermatology",
+        "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects",
+        "imageURL": "https://i.ibb.co/chvRBwJ/p-3-460015b6.png"
+    },
+    {
+        "_id": "6",
+        "name": "Neurology",
+        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment ",
+        "imageURL": "https://i.ibb.co/chvRBwJ/p-3-460015b6.png"
+    }
+]
