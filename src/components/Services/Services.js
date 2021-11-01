@@ -15,7 +15,7 @@ const Services = () => {
 
     console.log(services)
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://stark-hamlet-27159.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

@@ -15,7 +15,7 @@ const BookNow = () => {
     const [data, setData] = useState({})
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${bookNowDtls}`)
+        fetch(`https://stark-hamlet-27159.herokuapp.com/services/${bookNowDtls}`)
             .then(res => res.json())
             .then(data => setData(data))
     }, [])
@@ -23,7 +23,7 @@ const BookNow = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch("http://localhost:5000/allOrder", {
+        fetch("https://stark-hamlet-27159.herokuapp.com/allOrder", {
             method: "POST",
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
@@ -35,7 +35,7 @@ const BookNow = () => {
     const handleMyOrder = () => {
 
         console.log(data)
-        fetch("http://localhost:5000/addOrder", {
+        fetch("https://stark-hamlet-27159.herokuapp.com/addOrder", {
             method: "POST",
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
