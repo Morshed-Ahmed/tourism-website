@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCtlgABexatb6kUPeaZljahpPf-78khtRA",
-    authDomain: "travels-tourism-agency.firebaseapp.com",
-    projectId: "travels-tourism-agency",
-    storageBucket: "travels-tourism-agency.appspot.com",
-    messagingSenderId: "531021145408",
-    appId: "1:531021145408:web:f5e962c4f04d63d04286a5"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 export default firebaseConfig;
